@@ -24,7 +24,8 @@ const repeatString = function(string, num) {
 //    }
 //    return string;
 //  };
-  
-  module.exports = repeatString;
+//  
+//  module.exports = repeatString;
+
 // Do not edit below this line
 module.exports = repeatString;
