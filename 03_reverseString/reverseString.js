@@ -1,3 +1,5 @@
+// My solution
+
 const reverseString = function(string) {
     const stringArray = Array.from(string);
     const reverseStringArray = []
@@ -10,3 +12,11 @@ const reverseString = function(string) {
 
 // Do not edit below this line
 module.exports = reverseString;
+
+// Given solution
+
+//const reverseString = function(string) {
+//    return string.split('').reverse().join('');
+//   };
+//   
+//   module.exports = reverseString;
