@@ -1,5 +1,11 @@
-const reverseString = function() {
-
+const reverseString = function(string) {
+    const stringArray = Array.from(string);
+    const reverseStringArray = []
+    let stringArrayLength = stringArray.length;
+    for (let i = stringArrayLength - 1; i >= 0; i--) {
+        reverseStringArray.push(stringArray[i])
+    }
+    return reverseStringArray.join('')
 };
 
 // Do not edit below this line
