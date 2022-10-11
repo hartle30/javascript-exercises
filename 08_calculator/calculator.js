@@ -14,6 +14,8 @@ const multiply = function(array) {
   return array.reduce((total, current) => total * current, 1);
 };
 
+// My solution
+
 const power = function(a, b) {
   let total = a;
   for (let i = 1; i < b; i++) {
@@ -21,6 +23,16 @@ const power = function(a, b) {
   };
   return total;
 };
+
+/* Give solution
+
+const power = function(a, b) {
+  return Math.pow(a, b);
+};
+
+*/
+
+// My solution
 
 const factorial = function(a) {
   if (a === 0) {
@@ -33,6 +45,19 @@ const factorial = function(a) {
   return total;
   };
 };
+
+/* Given solution
+
+const factorial = function(n) {
+  if (n === 0) return 1;
+  let product = 1;
+  for (let i = n; i > 0; i--) {
+    product *= i;
+  }
+  return product;
+};
+
+*/
 
 // Do not edit below this line
 module.exports = {
